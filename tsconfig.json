@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "module": "ESNext", // Hoặc "ES6"
+    "moduleResolution": "node"
+    // Các cấu hình khác của TypeScript
+  }
+}
