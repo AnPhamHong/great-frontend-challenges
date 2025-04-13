@@ -2,6 +2,7 @@ import colors from 'tailwindcss/colors';
 
 export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./index.html"],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -21,6 +22,8 @@ export default {
         success: "#15803d", // text-green-700
         warning: "#a16207", // text-amber-700
         // Background Colors
+
+        "dark-bg": "#1e1e1e",
         "bg-primary": "#ffffff",
         "bg-primary-inverted": "#0a0a0a",
         "bg-primary-hover": "#fafafa",
