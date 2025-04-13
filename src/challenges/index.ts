@@ -1,6 +1,7 @@
 import { Challenges, ChallengesStatus } from "../types/challenge";
 import TestimonialCard from "./01-testimonial-card";
 import BlogCard from "./02-blog-card";
+import ProfileCard from "./02-profile-card";
 
 export const challengeRoutes: Challenges = [
   {
@@ -20,8 +21,8 @@ export const challengeRoutes: Challenges = [
   {
     path: "/profile-card",
     title: "Profile Card",
-    Component: BlogCard,
-    status: ChallengesStatus.InProgress,
+    Component: ProfileCard,
+    status: ChallengesStatus.Done,
     github: "",
   },
   {
