@@ -5,7 +5,7 @@ import ThemeToggle from "./components/ThemeToggle";
 
 export default function App() {
   return (
-    <div className="p-4 h-[100vh] dark:bg-dark-bg dark:text-white">
+    <div className="p-4 min-h-screen dark:bg-dark-bg dark:text-white">
       <div className="w-2/3 mx-auto mt-2">
         <div className="flex justify-between">
           <h1 className="text-2xl font-bold mb-4">

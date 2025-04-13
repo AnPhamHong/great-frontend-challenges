@@ -2,7 +2,7 @@ import { testimonials } from "../../data/testimonials";
 
 export default function TestimonialCard() {
   return (
-    <div className="dark:bg-black flex flex-wrap gap-4 w-1/2 mx-auto">
+    <div className="flex flex-wrap gap-4 mx-auto">
       {testimonials.map((item, index) => {
         return (
           <div

@@ -19,7 +19,7 @@ export default function ChallengeTable() {
               key={i}
               className="border-t border-zinc-200 dark:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-800 transition"
             >
-              <td className="py-2 px-4">{`${i + 1} ${c.title}`}</td>
+              <td className="py-2 px-4">{`${i + 1}. ${c.title}`}</td>
               <td className="py-2 px-4">
                 <span
                   className={`px-2 py-1 rounded text-xs font-medium ${

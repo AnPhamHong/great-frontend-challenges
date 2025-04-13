@@ -14,14 +14,14 @@ export const challengeRoutes: Challenges = [
     path: "/blog-card",
     title: "Blog Card",
     Component: BlogCard,
-    status: ChallengesStatus.InProgress,
+    status: ChallengesStatus.Done,
     github: "",
   },
   {
     path: "/profile-card",
     title: "Profile Card",
     Component: BlogCard,
-    status: ChallengesStatus.NotStarted,
+    status: ChallengesStatus.InProgress,
     github: "",
   },
   {
