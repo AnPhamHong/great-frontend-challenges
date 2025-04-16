@@ -23,13 +23,7 @@ export default function Badge({
   withIcon = false,
 }: BadgeProps) {
   return (
-    <span
-      className={cn(
-        "w-fit inline-flex items-center px-4 py-1 text-xs font-medium rounded-full gap-1",
-        colorMap[variant],
-        className
-      )}
-    >
+    <span className={cn(colorMap[variant], className)}>
       {withIcon && iconMap[variant]}
       {text}
     </span>

@@ -3,6 +3,7 @@ import TestimonialCard from "./01-testimonial-card";
 import BlogCard from "./02-blog-card";
 import ProfileCard from "./03-profile-card";
 import ButtonComponent from "./04-button-component";
+import ExtensionsList from "./05-extensions-list";
 
 export const challengeRoutes: Challenges = [
   {
@@ -41,10 +42,10 @@ export const challengeRoutes: Challenges = [
     github: "",
   },
   {
-    path: "/collections-grid",
-    title: "Collections Grid Section",
-    Component: BlogCard,
-    status: ChallengesStatus.NotStarted,
+    path: "/extensions-list",
+    title: "Extensions List",
+    Component: ExtensionsList,
+    status: ChallengesStatus.Done,
     github: "",
   },
 ]

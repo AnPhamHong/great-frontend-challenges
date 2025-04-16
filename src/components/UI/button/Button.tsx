@@ -25,8 +25,10 @@ export default function Button({
     primary: "bg-[#4338CA] text-white hover:bg-[#5a4cff]",
     secondary:
       "bg-white text-[#4338CA] border border-[#4338CA] hover:bg-[#edeaff]",
-    tertiary: "bg-transparent text-[#121212] border",
-    destructive: "bg-red-600 text-white hover:bg-red-700",
+    tertiary:
+      "dark:text-[#f0f4f6] dark:bg-[#2f354b] bg-transparent text-[#121212] border dark:hover:bg-[#525868]",
+    destructive:
+      "dark:text-[#1e0d29] dark:bg-[#f35c55] bg-red-600 text-white hover:bg-red-700 dark:hover:bg-[#de4840]",
     link: "text-[#4338CA] underline hover:text-[#5a4cff]",
   };
 

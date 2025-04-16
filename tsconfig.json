@@ -6,7 +6,7 @@
   ],
   "compilerOptions": {
     "module": "ESNext", // Hoặc "ES6"
-    "moduleResolution": "node"
-    // Các cấu hình khác của TypeScript
+    "moduleResolution": "node",
+    "types": ["node"]
   }
 }
