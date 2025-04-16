@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
-import Badge from "../../components/UI/badge/Badge";
-import ButtonOrLink from "../../components/UI/button/ButtonOrLink";
+import Badge from "@/components/UI/badge/Badge";
+import ButtonOrLink from "@/components/UI/button/ButtonOrLink";
 
 export default function BlogCard() {
   return (

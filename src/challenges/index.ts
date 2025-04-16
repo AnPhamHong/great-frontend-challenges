@@ -1,9 +1,11 @@
-import { Challenges, ChallengesStatus } from "../types/challenge";
-import TestimonialCard from "./01-testimonial-card";
-import BlogCard from "./02-blog-card";
-import ProfileCard from "./03-profile-card";
-import ButtonComponent from "./04-button-component";
-import ExtensionsList from "./05-extensions-list";
+
+import { Challenges, ChallengesStatus } from "@/types/challenge";
+import TestimonialCard from "@/challenges/01-testimonial-card";
+import BlogCard from "@/challenges/02-blog-card";
+import ProfileCard from "@/challenges/03-profile-card";
+import ButtonComponent from "@/challenges/04-button-component";
+import ExtensionsList from "@/challenges/05-extensions-list";
+import PersonalBlog from "@/challenges/06-personal-blog";
 
 export const challengeRoutes: Challenges = [
   {
@@ -45,6 +47,13 @@ export const challengeRoutes: Challenges = [
     path: "/extensions-list",
     title: "Extensions List",
     Component: ExtensionsList,
+    status: ChallengesStatus.Done,
+    github: "",
+  },
+  {
+    path: "/personal-blog",
+    title: "Personal Blog",
+    Component: PersonalBlog,
     status: ChallengesStatus.Done,
     github: "",
   },

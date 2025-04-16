@@ -1,6 +1,6 @@
 import { Loader2 } from "lucide-react";
-import { ButtonProps, ButtonSize, ButtonVariant } from "../../../types/button";
-import { cn } from "../../../utils/utils";
+import { ButtonProps, ButtonSize, ButtonVariant } from "@/types/button";
+import { cn } from "@/utils/utils";
 
 export default function Button({
   variant = "primary",

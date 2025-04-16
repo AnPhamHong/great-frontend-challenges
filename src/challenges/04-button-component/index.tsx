@@ -1,4 +1,4 @@
-import Button from "../../components/UI/button/Button";
+import Button from "@/components/UI/button/Button";
 import { ArrowRight, BaggageClaim, CloudUpload, Trash } from "lucide-react";
 
 export default function ButtonComponent() {

@@ -1,4 +1,4 @@
-import ChallengeTable from "../components/ChallengeTable";
+import ChallengeTable from "@/components/ChallengeTable";
 
 export default function Home() {
   return (

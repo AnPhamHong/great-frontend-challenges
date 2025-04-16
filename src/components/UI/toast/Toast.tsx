@@ -1,10 +1,10 @@
 import { createContext, useCallback, useContext, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { ReactComponent as IconSuccess } from "../../../assets/svg/icon-success.svg";
-import { ReactComponent as IconDelete } from "../../../assets/svg/icon-delete.svg";
-import { ReactComponent as IconInfo } from "../../../assets/svg/icon-info.svg";
-import { ReactComponent as IconClose } from "../../../assets/svg/icon-close.svg";
-import { cn } from "../../../utils/utils";
+import { ReactComponent as IconSuccess } from "@/assets/svg/icon-success.svg";
+import { ReactComponent as IconDelete } from "@/assets/svg/icon-delete.svg";
+import { ReactComponent as IconInfo } from "@/assets/svg/icon-info.svg";
+import { ReactComponent as IconClose } from "@/assets/svg/icon-close.svg";
+import { cn } from "@/utils/utils";
 
 type ToastType = "success" | "error" | "info";
 

@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { Link } from "react-router-dom";
-import { cn } from "../../../utils/utils";
-import { ButtonOrLinkProps } from "../../../types/button";
+import { cn } from "@/utils/utils";
+import { ButtonOrLinkProps } from "@/types/button";
 
 const ButtonOrLink = forwardRef<HTMLElement, ButtonOrLinkProps>(
   ({ href, children, className, ...props }, ref) => {

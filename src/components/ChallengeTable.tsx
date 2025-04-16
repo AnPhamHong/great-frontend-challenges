@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { challengeRoutes } from "../challenges";
+import { challengeRoutes } from "@/challenges";
 
 export default function ChallengeTable() {
   return (

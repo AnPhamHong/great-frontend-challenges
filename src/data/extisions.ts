@@ -1,18 +1,18 @@
 
 
-import { ReactComponent as LogoDevlens } from "../assets/svg/logo-devlens.svg";
-import { ReactComponent as LogoConsolePlus } from "../assets/svg/logo-console-plus.svg";
-import { ReactComponent as LogoDomSnapshot } from "../assets/svg/logo-dom-snapshot.svg";
-import { ReactComponent as LogoGridGuides } from "../assets/svg/logo-grid-guides.svg";
-import { ReactComponent as LogoJsonWizard } from "../assets/svg/logo-json-wizard.svg";
-import { ReactComponent as LogoLinkChecker } from "../assets/svg/logo-link-checker.svg";
-import { ReactComponent as LogoMarkupNotes } from "../assets/svg/logo-markup-notes.svg";
-import { ReactComponent as LogoPalettePicker } from "../assets/svg/logo-palette-picker.svg";
-import { ReactComponent as LogoSpeedBoost } from "../assets/svg/logo-speed-boost.svg";
-import { ReactComponent as LogoStyleSpy } from "../assets/svg/logo-style-spy.svg";
-import { ReactComponent as LogoTabMasterPro } from "../assets/svg/logo-tab-master-pro.svg";
-import { ReactComponent as LogoViewportBuddy } from "../assets/svg/logo-viewport-buddy.svg";
-import { Extensions } from "../types/extensions";
+import { ReactComponent as LogoDevlens } from "@/assets/svg/logo-devlens.svg";
+import { ReactComponent as LogoConsolePlus } from "@/assets/svg/logo-console-plus.svg";
+import { ReactComponent as LogoDomSnapshot } from "@/assets/svg/logo-dom-snapshot.svg";
+import { ReactComponent as LogoGridGuides } from "@/assets/svg/logo-grid-guides.svg";
+import { ReactComponent as LogoJsonWizard } from "@/assets/svg/logo-json-wizard.svg";
+import { ReactComponent as LogoLinkChecker } from "@/assets/svg/logo-link-checker.svg";
+import { ReactComponent as LogoMarkupNotes } from "@/assets/svg/logo-markup-notes.svg";
+import { ReactComponent as LogoPalettePicker } from "@/assets/svg/logo-palette-picker.svg";
+import { ReactComponent as LogoSpeedBoost } from "@/assets/svg/logo-speed-boost.svg";
+import { ReactComponent as LogoStyleSpy } from "@/assets/svg/logo-style-spy.svg";
+import { ReactComponent as LogoTabMasterPro } from "@/assets/svg/logo-tab-master-pro.svg";
+import { ReactComponent as LogoViewportBuddy } from "@/assets/svg/logo-viewport-buddy.svg";
+import { Extensions } from "@/types/extensions";
 
 export const dataExtensions: Extensions[] = [
   {

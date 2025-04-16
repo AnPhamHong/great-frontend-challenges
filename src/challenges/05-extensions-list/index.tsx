@@ -1,10 +1,10 @@
 import { useCallback, useMemo, useState } from "react";
-import { ReactComponent as Logo } from "../../assets/svg/logo.svg";
-import Button from "../../components/UI/button/Button";
-import Toggle from "../../components/UI/toggle/Toggle";
-import { dataExtensions } from "../../data/extisions";
-import { Extensions } from "../../types/extensions";
-import { useToast } from "../../components/UI/toast/Toast";
+import { ReactComponent as Logo } from "@/assets/svg/logo.svg";
+import Button from "@/components/UI/button/Button";
+import Toggle from "@/components/UI/toggle/Toggle";
+import { dataExtensions } from "@/data/extisions";
+import { Extensions } from "@/types/extensions";
+import { useToast } from "@/components/UI/toast/Toast";
 
 type Props = {};
 
@@ -18,7 +18,6 @@ export default function ExtensionsList({}: Props) {
   >("all");
 
   const filteredExtensions = useMemo(() => {
-    debugger;
     switch (filterStatus) {
       case "active":
         return originalLstExtension.filter((ext) => ext.isActive);
@@ -34,7 +33,6 @@ export default function ExtensionsList({}: Props) {
     id: string,
     checked: boolean
   ) => {
-    debugger;
     let tempLstExtension = [...originalLstExtension];
 
     const findIndex = tempLstExtension.findIndex(

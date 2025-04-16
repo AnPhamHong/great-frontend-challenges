@@ -1,5 +1,5 @@
-import { PropsToggle, SizeToggle } from "../../../types/toggle";
-import { cn } from "../../../utils/utils";
+import { PropsToggle, SizeToggle } from "@/types/toggle";
+import { cn } from "@/utils/utils";
 
 const sizeMap: Record<SizeToggle, string> = {
   small: "w-9 h-5 after:h-4 after:w-4",

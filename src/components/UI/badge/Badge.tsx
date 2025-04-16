@@ -1,7 +1,7 @@
 import { CheckCircle, Clock, PauseCircle } from "lucide-react";
-import { BadgeProps, BadgeVariant } from "../../../types/badge";
+import { BadgeProps, BadgeVariant } from "@/types/badge";
 import { JSX } from "react";
-import { cn } from "../../../utils/utils";
+import { cn } from "@/utils/utils";
 
 const iconMap: Record<BadgeVariant, JSX.Element> = {
   success: <CheckCircle className="w-3.5 h-3.5 mr-1" />,
